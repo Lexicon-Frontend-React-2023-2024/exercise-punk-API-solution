@@ -1,0 +1,24 @@
+#header {
+  background-color: var(--blue);
+  padding-block: 0.5rem;
+}
+
+#header h1 {
+  color: var(--black);
+  text-align: center;
+}
+
+#header .navbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#header .navbar .nav-link {
+  cursor: pointer;
+}
+
+#header .navbar .nav-link.active {
+  font-weight: bold;
+}

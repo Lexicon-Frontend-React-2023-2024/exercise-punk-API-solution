@@ -1,0 +1,36 @@
+#beer-info-page {
+  padding-bottom: 2rem;
+}
+
+#beer-info-page .base-info,
+#beer-info-page .description,
+#beer-info-page .food-pairing,
+#beer-info-page .brewers-tips {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 10px 5px rgba(0, 175, 219, 0.7);
+  color: var(--black);
+  font-size: 0.8rem;
+  margin-inline: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 300px;
+}
+
+#beer-info-page .base-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+#beer-info-page .base-info .name {
+  text-align: center;
+}
+
+#beer-info-page .base-info .details .detail-name,
+#beer-info-page .description,
+#beer-info-page .food-pairing .list-description,
+#beer-info-page .brewers-tips .brewers-tips-header {
+  font-weight: bold;
+}
