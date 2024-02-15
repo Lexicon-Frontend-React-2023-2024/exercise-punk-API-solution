@@ -1,8 +1,9 @@
+import { ROUTE_CHANGE } from "./constants";
+import { router } from "./router";
+
 import "./css/style.css";
 
-import { ROUTE_CHANGE } from "./constants";
-import { APP } from "./elements";
-import { router } from "./router";
+const APP = document.querySelector<HTMLDivElement>("#app")!;
 
 // ########## Register window events ##########
 

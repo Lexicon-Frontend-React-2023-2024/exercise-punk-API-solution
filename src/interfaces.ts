@@ -20,6 +20,15 @@ export interface IBeerSearchParameters {
   beer_name?: string;
 }
 
+export interface IBeerResults {
+  beerPages: IBeerResultPage[];
+}
+
+export interface IBeerResultPage {
+  page: number;
+  beers: IBeer[];
+}
+
 export interface IChangeRouteEvent extends Event {
   detail: IRouteDetails;
 }
