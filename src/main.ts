@@ -1,4 +1,4 @@
-import { ROUTE_CHANGE } from "./constants";
+0import { ROUTE_CHANGE } from "./constants";
 import { router } from "./router";
 
 import "./css/style.css";
@@ -16,8 +16,8 @@ addEventListener("popstate", () => reRenderApp());
 // ########## Application code ##########
 
 /**
- * Location object is built-in and its property "href" is passed to my router function that returns
- * a HTML element. This is initially appended to the my div with the if "app".
+ * Location object is built-in and its property "pathname" is passed to my router function that returns
+ * a HTML element. This is initially appended to the my div with the id "app".
  */
 
 APP.appendChild(router(location.pathname));
